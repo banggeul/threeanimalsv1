@@ -1,0 +1,21 @@
+{
+  "name": "RandomTask",
+  "short_name": "RandomTask",
+  "description": "Experiments for Children's Randomness",
+  "version": "0.0.0.1",
+  "manifest_version": 1,
+  "author": "Bang Geul Han",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "theme_color": "#015174",
+  "background_color": "#F7F4F3",
+  "app": {
+    "urls": [
+      "https://randomtask-experiment.herokuapp.com/"
+    ],
+    "permissions": [
+      "fullscreen"
+    ]
+  }
+}
