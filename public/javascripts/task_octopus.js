@@ -567,14 +567,17 @@ function setUpGameBoard() {
     ///////////////////////////
 
     //get the card positions from the json file//
-    if(i > 0){
-      x = cardPositions[i-1].x;
-      y = cardPositions[i-1].y;
-    } else {
-      x = cardPositions[i].x;
-      y = cardPositions[i].y;
-    }
-    
+    /******************************************************************************* */
+    // if(i > 0){
+    //   x = cardPositions[i-1].x;
+    //   y = cardPositions[i-1].y;
+    // } else {
+    //   x = cardPositions[i].x;
+    //   y = cardPositions[i].y;
+    // }
+    /******************************************************************************* */
+    x = cardPositions[i].x;
+    y = cardPositions[i].y;
 
     let $card = drawBGCard({
       x: x,
@@ -1236,8 +1239,7 @@ function finishGame() {
 
   $cards[totalCards-1].setAttribute('data-env', env);
   //hide the last card
-  ///////////////////////********************************************** */
-  //$cards[totalCards-1].style.visibility = "hidden";
+  $cards[totalCards-1].style.visibility = "hidden";
   //console.log("hide the last card");
   // },500);
   //flip animation goes here
