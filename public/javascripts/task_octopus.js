@@ -257,7 +257,9 @@ let sessionData = {};
 let currentSubject = {};
 let currentSubjectID;
 const totalCards = 41;
-let currentCardNum = 1;
+///////////////////////********************************************** */
+//let currentCardNum = 1;
+let currentCardNum = 0;
 //make array for sequence set
 var environment = [];
 //array to store choices
@@ -930,7 +932,8 @@ function fadeInButtons(){
   }
   console.log(currentCardNum);
   //if it's the first choice 
-  if(currentCardNum == 1) {
+  ////*************************************************************change this back to 1 */
+  if(currentCardNum == 0) {
     fadeIn($demo, 1, 0, "flex")
   } else {
     fadeInGameHUD();
@@ -1233,9 +1236,9 @@ function finishGame() {
 
   $cards[totalCards-1].setAttribute('data-env', env);
   //hide the last card
-  // setTimeout(()=>{
-  $cards[totalCards-1].style.visibility = "hidden";
-  console.log("hide the last card");
+  ///////////////////////********************************************** */
+  //$cards[totalCards-1].style.visibility = "hidden";
+  //console.log("hide the last card");
   // },500);
   //flip animation goes here
   if(currentCardNum > 1 ) {
