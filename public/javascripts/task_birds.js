@@ -1244,7 +1244,7 @@ function finishGame() {
 
   console.log("game finished");
   //update the subject data
-  currentSubject.tasks.one = 1;
+  currentSubject.tasks.two = 1;
   experiment.id = id;
   experiment.experiment = currentSubject;
   //update the database
