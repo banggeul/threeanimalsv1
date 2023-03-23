@@ -258,8 +258,8 @@ let currentSubject = {};
 let currentSubjectID;
 const totalCards = 41;
 ///////////////////////********************************************** */
-//let currentCardNum = 1;
-let currentCardNum = 0;
+let currentCardNum = 1;
+//let currentCardNum = 0;
 //make array for sequence set
 var environment = [];
 //array to store choices
@@ -568,16 +568,16 @@ function setUpGameBoard() {
 
     //get the card positions from the json file//
     /******************************************************************************* */
-    // if(i > 0){
-    //   x = cardPositions[i-1].x;
-    //   y = cardPositions[i-1].y;
-    // } else {
-    //   x = cardPositions[i].x;
-    //   y = cardPositions[i].y;
-    // }
+    if(i > 0){
+      x = cardPositions[i-1].x;
+      y = cardPositions[i-1].y;
+    } else {
+      x = cardPositions[i].x;
+      y = cardPositions[i].y;
+    }
     /******************************************************************************* */
-    x = cardPositions[i].x;
-    y = cardPositions[i].y;
+    //x = cardPositions[i].x;
+    //y = cardPositions[i].y;
 
     let $card = drawBGCard({
       x: x,
@@ -936,7 +936,7 @@ function fadeInButtons(){
   console.log(currentCardNum);
   //if it's the first choice 
   ////*************************************************************change this back to 1 */
-  if(currentCardNum == 0) {
+  if(currentCardNum == 1) {
     fadeIn($demo, 1, 0, "flex")
   } else {
     fadeInGameHUD();
