@@ -528,7 +528,19 @@ function checkSubjectID() {
       document.querySelector('#taskThreeCheckbox').classList.add('checked');
       task++;
     }
-    if (task == 3) {
+
+    if(task == 0){
+      //no test has been done, only activate the task 1 button
+      document.querySelector('#TaskTwoButton').classList.add("disabled");
+      document.querySelector('#TaskThreeButton').classList.add("disabled");
+    } else if(task == 1){
+      //task one has been finished, activate the task 2 button but disable the three
+      //document.querySelector('#TaskTwoButton').classList.remove("disabled");
+      document.querySelector('#TaskThreeButton').classList.add("disabled");
+    } else if(task == 2){
+
+    }
+    else if (task == 3) {
       document.querySelector('#tryAgain').style.display = "block";
       disableAllInputs();
       showNewTestButton();
