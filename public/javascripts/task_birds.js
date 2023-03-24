@@ -2,7 +2,13 @@
 import storeSubject from '/utils/subject_storage.js'
 import store from '/utils/storage_birds.js'
 import {instructions} from '/instructions/task_birds/instructions.js'
-import {sequenceSets} from '/javascripts/sequenceSets.js'
+//import {sequenceSets} from '/javascripts/sequenceSets.js'
+var sequenceSets;
+import { 
+  sequenceSetRandom,
+  sequenceSetDispersed,
+  sequenceSetPatchy 
+} from '/javascripts/newSequenceSets.js'
 //import the data storing script
 import {
   postData,
@@ -469,9 +475,15 @@ fetchSubjectById().then((data) => {
     if(choiceMode == 0){
       left = 0;
       right = 1;
+      //also assign the correct sequnceSet
+      //if it's even, get the patchy
+      sequenceSets = sequenceSetDispersed;
+      console.log("this one uses dispersed distribution");
     } else {
       left = 1;
       right = 0;
+      sequenceSets = sequenceSetPatchy;
+      console.log("this one uses patchy distribution");
     }
     //show the choice cards but they are not clickable yet
     document.querySelector("#left").setAttribute('data-choice', left);
