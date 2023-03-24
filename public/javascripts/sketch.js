@@ -193,6 +193,8 @@ fetch(databaseURL)
       } else {
         //if not, this is a new experiment
         fadeInInterface($interface);
+        document.querySelector('#TaskTwoButton').classList.add("disabled");
+        document.querySelector('#TaskThreeButton').classList.add("disabled");
         // console.log("fade in the interface");
       }
     });
