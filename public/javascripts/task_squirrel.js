@@ -1,7 +1,7 @@
 //import the data storing script
 import storeSubject from '/utils/subject_storage.js'
 import store from '/utils/storage.js'
-import {instructions} from '/instructions/task1/instructions.js'
+import {instructions} from '/instructions/task_squirrel/instructions.js'
 import {sequenceSets} from '/javascripts/sequenceSets.js'
 //import the data storing script
 import {
@@ -22,7 +22,7 @@ const $instructionScreen = document.querySelector("#instructionContainer");
 let instructionPages = [];
 let instTexts = [];
 let nextBtns = [];
-const pathToSlides = "/instructions/task1/";
+const pathToSlides = "/instructions/task_squirrel/";
 
 // let timeID;
 let isGameOn = false;
