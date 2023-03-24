@@ -319,6 +319,9 @@ function generateNewID() {
 
         document.querySelector('#subjectNumOptions').value = newId;
         resetAllInput();
+        //disable the task two and three buttons
+        document.querySelector('#TaskTwoButton').classList.add("disabled");
+        document.querySelector('#TaskThreeButton').classList.add("disabled");
 
         if (!$checkSubjectID.classList.contains('disabled')) {
           $checkSubjectID.classList.add('disabled');
