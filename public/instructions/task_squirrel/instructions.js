@@ -1,6 +1,6 @@
 export var instructions = [
   {
-    foreground: "big_rabbit_Eyes.png",
+    foreground: "big_squirrel.png",
     isVideo: "0",
     text: {
       en:"This is Lucy, Ollie and Skipper.",
