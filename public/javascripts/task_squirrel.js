@@ -1070,12 +1070,12 @@ let dirt = {
 let sprite_c = new Image();
 sprite_c.onload = initCarrot;
 // sprite_c.src = "animations/cards/yellowCarrot.png";
-sprite_c.src = "assets/squirrel/card_still/acornfront.png"
+sprite_c.src = "assets/squirrel/card_anim/acorn.png"
 
 let sprite_d = new Image();
 sprite_d.onload = initDirt;
 // sprite_d.src = "animations/cards/yellowDirt.png";
-sprite_d.src = "assets/squirrel/card_still/noacornfront.png"
+sprite_d.src = "assets/squirrel/card_anim/noacorn.png"
 
 // window.addEventListener("resize", resizeCarrot);
 
