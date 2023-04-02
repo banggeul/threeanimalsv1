@@ -214,7 +214,8 @@ input[type="radio"] {
   height: 218px;
   /* background: rgba(255,200,200,1); */
   position: absolute;
-  background-image: url(/animations/cardBackTrimmed.png);
+  /* background-image: url(/animations/cardBackTrimmed.png); */
+  background-image: url(/assets/squirrel/card_still/card_back.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -245,25 +246,30 @@ canvas.animContainer {
   z-index: 2;
   opacity: 0;
   display: none;
-  background-image: url(/animations/rabbit/waitingRight.png);
+  /* background-image: url(/animations/rabbit/waitingRight.png); */
+  background-image: url(/assets/squirrel/squirrel_small/squirrel_standing_right.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .bunny-skipRight {
-  background-image: url(/animations/rabbit/rightSkip.png);
+  /* background-image: url(/animations/rabbit/rightSkip.png); */
+  background-image: url(/assets/squirrel/squirrel_small/squirrel_leaping_right.png);
 }
 
 .bunny-skipLeft {
-  background-image: url(/animations/rabbit/leftSkip.png);
+  /* background-image: url(/animations/rabbit/leftSkip.png); */
+  background-image: url(/assets/squirrel/squirrel_small/squirrel_leaping_left.png);
 }
 
 .bunny-waitingRight {
-  background-image: url(/animations/rabbit/waitingRight.png);
+  /* background-image: url(/animations/rabbit/waitingRight.png); */
+  background-image: url(/assets/squirrel/squirrel_small/squirrel_standing_right.png);
 }
 
 .bunny-waitingLeft {
-  background-image: url(/animations/rabbit/waitingLeft.png);
+  /* background-image: url(/animations/rabbit/waitingLeft.png); */
+  background-image: url(/assets/squirrel/squirrel_small/squirrel_standing_left.png);
 }
 
 .choice-card {
@@ -274,7 +280,8 @@ canvas.animContainer {
   /* flex: 1 1 auto; */
   /* box-shadow: 0 0 50px rgba(0,0,0,1); */
   z-index: 10;
-  background-image: url(/animations/carrot_button_3.png);
+  /* background-image: url(/animations/carrot_button_3.png); */
+  background-image: url(/assets/squirrel/button/btn_acorn.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   user-select: none;
@@ -315,26 +322,30 @@ div[data-choice='0'] {
   /* background-color: red; */
   /* this should be the clickable card face */
   /* background-image: url(dirtCardStillUntrimmed.png); */
-  background-image: url(/animations/dirt_button_3.png);
+  /* background-image: url(/animations/dirt_button_3.png); */
+  background-image: url(/assets/squirrel/button/btn_no_acorn.png);
 }
 
 div[data-choice="1"] {
   /* background-color: green; */
-  background-image: url(/animations/carrot_button_3.png);
+  /* background-image: url(/animations/carrot_button_3.png); */
+  background-image: url(/assets/squirrel/button/btn_acorn.png);
   /* this should be the clickable card face */
   /* background-image: url(carrotCardStilluntrimmed.png); */
 }
 
 div[data-env="0"]{
   /* background-color: green; */
-  background-image: url(/animations/dirtCardStillTrimmed.png);
+  /* background-image: url(/animations/dirtCardStillTrimmed.png); */
+  background-image: url(/assets/squirrel/card_still/noacornfront.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 div[data-env="1"]{
   /* background-color: orange; */
-  background-image: url(/animations/carrotCardStillTrimmed.png);
+  /* background-image: url(/animations/carrotCardStillTrimmed.png); */
+  background-image: url(/assets/squirrel/card_still/acornfront.png);
   background-repeat: no-repeat;
   background-position: center;
 }

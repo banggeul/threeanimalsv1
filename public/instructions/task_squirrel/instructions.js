@@ -15,7 +15,7 @@ export var instructions = [
     imgfadeOut: "1"
   },
   {
-    foreground: "big_rabbit_Eyes.png",
+    foreground: "big_squirrel.png",
     isVideo: "0",
     text: {
       en:"This is Maxi. <br><br> Maxi is very hungry and carrots <br>are Maxi’s favorite food. <br><br>Maxi is looking for carrots to eat.",
@@ -31,7 +31,7 @@ export var instructions = [
   },
   {
     background: "path.png",
-    foreground: "politePoseEyes.png",
+    foreground: "small_squirrel.png",
     isVideo: "0",
     animation: {
       property: "x",
@@ -87,7 +87,7 @@ export var instructions = [
   },
   {
     bgColor: "rgba(0,0,0,0)",
-    foreground: "big_rabbit_Eyes.png",
+    foreground: "big_squirrel.png",
     animation: {
       property: "y",
       to: "1350",
@@ -109,7 +109,7 @@ export var instructions = [
   },
   {
     background: "path.png",
-    foreground: "big_rabbit_Eyes.png",
+    foreground: "big_squirrel.png",
     animation: {
       property: "y",
       to: "-1317",

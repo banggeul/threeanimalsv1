@@ -1,0 +1,44 @@
+{"frames": [
+
+{
+	"filename": "squirrel_leaping_left.png",
+	"frame": {"x":1,"y":1,"w":472,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":472,"h":220},
+	"sourceSize": {"w":472,"h":220}
+},
+{
+	"filename": "squirrel_leaping_right.png",
+	"frame": {"x":1,"y":223,"w":472,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":472,"h":220},
+	"sourceSize": {"w":472,"h":220}
+},
+{
+	"filename": "squirrel_standing_left.png",
+	"frame": {"x":475,"y":1,"w":166,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":220},
+	"sourceSize": {"w":166,"h":220}
+},
+{
+	"filename": "squirrel_standing_right.png",
+	"frame": {"x":475,"y":223,"w":166,"h":220},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":220},
+	"sourceSize": {"w":166,"h":220}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "squirrel_states.png",
+	"format": "RGBA8888",
+	"size": {"w":642,"h":444},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:be3982cf033fd3786a7a0e0d41708447:4018b8a4555f53179c96b77588e476db:8cc2d66e3ea4e9b28ececdb9a1dc1906$"
+}
+}
