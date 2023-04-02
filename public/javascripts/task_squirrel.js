@@ -1081,7 +1081,7 @@ sprite_d.src = "assets/squirrel/card_still/noacornfront.png"
 
 function initCarrot() {
   tl_c = gsap.timeline({ onUpdate: updateCarrot, onComplete: carrotFinished, paused:true })
-    .to(carrot, { frame: acorn_frames.length - 1, roundProps: "frame", repeat: 0, ease: SteppedEase.config(carrot_frames.length - 1), duration: 1, delay:0.5 }, 0);
+    .to(carrot, { frame: acorn_frames.length - 1, roundProps: "frame", repeat: 0, ease: SteppedEase.config(acorn_frames.length - 1), duration: 1, delay:0.5 }, 0);
   // tl_c.pause();
 }
 
