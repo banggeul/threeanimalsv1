@@ -1081,19 +1081,19 @@ sprite_d.src = "assets/squirrel/card_still/noacornfront.png"
 
 function initCarrot() {
   tl_c = gsap.timeline({ onUpdate: updateCarrot, onComplete: carrotFinished, paused:true })
-    .to(carrot, { frame: carrot_frames.length - 1, roundProps: "frame", repeat: 0, ease: SteppedEase.config(carrot_frames.length - 1), duration: 1, delay:0.5 }, 0);
+    .to(carrot, { frame: acorn_frames.length - 1, roundProps: "frame", repeat: 0, ease: SteppedEase.config(carrot_frames.length - 1), duration: 1, delay:0.5 }, 0);
   // tl_c.pause();
 }
 
 function initDirt() {
   tl_d = gsap.timeline({ onUpdate: updateDirt, onComplete: dirtFinished, paused:true })
-      .to(dirt, { frame: dirt_frames.length - 1, roundProps: "frame", repeat: 0, ease: "none", duration: 1, delay:0.5 }, 0);
+      .to(dirt, { frame: no_acorn_frames.length - 1, roundProps: "frame", repeat: 0, ease: "none", duration: 1, delay:0.5 }, 0);
   // tl_d.pause();
 }
 
 function updateCarrot() {
 
-  let frame = carrot_frames[carrot.frame];
+  let frame = acorn_frames[carrot.frame];
 
   let f = frame.frame;
   let s = frame.spriteSourceSize;
@@ -1113,7 +1113,7 @@ function updateCarrot() {
 
 function updateDirt() {
 
-  let frame = dirt_frames[dirt.frame];
+  let frame = no_acorn_frames[dirt.frame];
 
   let f = frame.frame;
   let s = frame.spriteSourceSize;
