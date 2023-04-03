@@ -54,7 +54,7 @@ export var instructions = [
   },
   {
     background: "flip_bg.png",
-    foreground: "carrot_flip.mp4",
+    foreground: "acorn_flip.mp4",
     isVideo: "1",
     text: {
       en:"Under some of the spots, Skipper can find <br> a yummy acorn that looks like this…",
@@ -71,7 +71,7 @@ export var instructions = [
   },
   {
     bgColor: "rgba(0,0,0,0)",
-    foreground: "dirt_flip.mp4",
+    foreground: "noacorn_flip.mp4",
     isVideo: "1",
     text: {
       en:"...but under some of the spots, <br>he can’t find anything to eat.",
