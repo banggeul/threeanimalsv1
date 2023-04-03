@@ -104,7 +104,7 @@ export var instructions = [
     y:"82%",
     textAlign: "center",
     image_x: "39%",
-    image_y: "-1000px",
+    image_y: "-600px",
     image_width: "600px",
     imgfadeOut: "1"
   },
