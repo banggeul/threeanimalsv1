@@ -290,8 +290,8 @@ let demoMsgs = {
   "en": [
   "Let me show you how it's done.",
   "You see, there are two buttons below.",
-  "Do you see where Maxi is standing?",
-  "If you think there's a carrot under that spot,",
+  "Do you see where Skipper is standing?",
+  "If you think there's an acorn under that spot,",
   "If you think there's nothing under that spot,",
   "Now it's your turn!"
   ],
