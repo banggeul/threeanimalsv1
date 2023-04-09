@@ -1,6 +1,6 @@
 export var instructions = [
   {
-    foreground: "big_squirrel.png",
+    foreground: "standing_big.png",
     isVideo: "0",
     text: {
       en:"This is Lucy, Ollie and Skipper. <br><br> You will be guessing what they may find <br> as they hop along the path.",
@@ -15,7 +15,7 @@ export var instructions = [
     imgfadeOut: "1"
   },
   {
-    foreground: "big_squirrel.png",
+    foreground: "standing_big.png",
     isVideo: "0",
     text: {
       en:"This is Skipper. <br><br> Skipper is very hungry and acorns <br>are Skipper’s favorite food. <br><br>Skipper is looking for acorns to eat.",
@@ -32,7 +32,7 @@ export var instructions = [
   },
   {
     background: "path.png",
-    foreground: "small_squirrel.png",
+    foreground: "standing_small.png",
     isVideo: "0",
     animation: {
       property: "x",
@@ -54,7 +54,7 @@ export var instructions = [
   },
   {
     background: "flip_bg.png",
-    foreground: "acorn_flip.mp4",
+    foreground: "flip_yes.mp4",
     isVideo: "1",
     text: {
       en:"Under some of the spots, Skipper can find <br> a yummy acorn that looks like this…",
@@ -71,7 +71,7 @@ export var instructions = [
   },
   {
     bgColor: "rgba(0,0,0,0)",
-    foreground: "noacorn_flip.mp4",
+    foreground: "flip_no.mp4",
     isVideo: "1",
     text: {
       en:"...but under some of the spots, <br>he can’t find anything to eat.",
@@ -88,7 +88,7 @@ export var instructions = [
   },
   {
     bgColor: "rgba(0,0,0,0)",
-    foreground: "big_squirrel.png",
+    foreground: "standing_big.png",
     animation: {
       property: "y",
       to: "1350",
@@ -110,7 +110,7 @@ export var instructions = [
   },
   {
     background: "path.png",
-    foreground: "big_squirrel.png",
+    foreground: "standing_big.png",
     animation: {
       property: "y",
       to: "-1317",
