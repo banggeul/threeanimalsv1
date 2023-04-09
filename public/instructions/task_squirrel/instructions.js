@@ -1,6 +1,6 @@
 export var instructions = [
   {
-    foreground: "standing_big.png",
+    foreground: "animal_friends.png",
     isVideo: "0",
     text: {
       en:"This is Lucy, Ollie and Skipper. <br><br> You will be guessing what they may find <br> as they hop along the path.",
@@ -8,10 +8,10 @@ export var instructions = [
     },
     textDelay: "1",
     x:"45%",
-    y:"40%",
+    y:"65%",
     image_x: "5%",
     image_y: "0",
-    textAlign: "left",
+    textAlign: "center",
     imgfadeOut: "1"
   },
   {
