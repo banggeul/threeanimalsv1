@@ -7,8 +7,8 @@ export var instructions = [
       de:"Das ist Maxi. <br><br> Maxi ist sehr hungrig und Karotten <br>sind Maxis Lieblingsessen. <br><br>Maxi sucht nach Karotten zum Essen."
     },
     textDelay: "1",
-    x:"45%",
-    y:"65%",
+    x:"50%",
+    y:"70%",
     image_x: "5%",
     image_y: "0",
     textAlign: "center",
