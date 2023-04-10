@@ -1,4 +1,4 @@
-{"frames": [
+var cherry_frames = [
 
 {
 	"filename": "Cherry-Stacked-250px-W_0000_c0001",
@@ -383,14 +383,4 @@
 	"trimmed": true,
 	"spriteSourceSize": {"x":47,"y":23,"w":156,"h":158},
 	"sourceSize": {"w":250,"h":218}
-}],
-"meta": {
-	"app": "https://www.codeandweb.com/texturepacker",
-	"version": "1.0",
-	"image": "cherry.png",
-	"format": "RGBA8888",
-	"size": {"w":1012,"h":1713},
-	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:7293c8a74e25e3d8f31324ef3017a6bc:877c2b745533ffada6781a33947e6fca:3dd72d1fdd832a56e27f7f0349b8fc99$"
-}
-}
+}]

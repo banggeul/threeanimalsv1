@@ -290,8 +290,8 @@ let demoMsgs = {
   "en": [
   "Let me show you how it's done.",
   "You see, there are two buttons below.",
-  "Do you see where Maxi is standing?",
-  "If you think there's a carrot under that spot,",
+  "Do you see where Lucy is standing?",
+  "If you think there's a cherry under that spot,",
   "If you think there's nothing under that spot,",
   "Now it's your turn!"
   ],
@@ -1068,11 +1068,11 @@ let dirt = {
 
 let sprite_c = new Image();
 sprite_c.onload = initCarrot;
-sprite_c.src = "animations/cards/yellowCarrot.png";
+sprite_c.src = "media_assets/bird/card_anim/cherry.png";
 
 let sprite_d = new Image();
 sprite_d.onload = initDirt;
-sprite_d.src = "animations/cards/yellowDirt.png";
+sprite_d.src = "media_assets/bird/card_anim/cherry_no.png";
 
 // window.addEventListener("resize", resizeCarrot);
 

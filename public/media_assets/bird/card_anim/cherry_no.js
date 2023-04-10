@@ -1,4 +1,4 @@
-{"frames": [
+var no_cherry_frames = [
 
 {
 	"filename": "NoCherry_0000_nc01",
@@ -383,14 +383,4 @@
 	"trimmed": true,
 	"spriteSourceSize": {"x":47,"y":23,"w":156,"h":158},
 	"sourceSize": {"w":250,"h":218}
-}],
-"meta": {
-	"app": "https://www.codeandweb.com/texturepacker",
-	"version": "1.0",
-	"image": "cherry_NO.png",
-	"format": "RGBA8888",
-	"size": {"w":1012,"h":1709},
-	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:ec38b2181926946edf85d7dfd2f5997b:764a61c22fe92941c0a2506078b0a6de:fa2f6de4fe760696896624a6084200d0$"
-}
-}
+}]
