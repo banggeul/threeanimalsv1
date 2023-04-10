@@ -11,7 +11,7 @@ export var instructions = [
     y:"7%",
     image_x: "5%",
     image_y: "0",
-    textAlign: "left",
+    textAlign: "center",
     imgfadeOut: "1"
   },
   {
