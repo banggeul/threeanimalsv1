@@ -87,7 +87,7 @@ export var instructions = [
     y:"82%",
     textAlign: "center",
     image_x: "37%",
-    image_y: "-553px",
+    image_y: "-645px",
     image_width: "700px",
     imgfadeOut: "1"
   },
@@ -107,7 +107,7 @@ export var instructions = [
     textDelay: "1",
     x:"10%",
     y:"82%",
-    textAlign: "left",
+    textAlign: "center",
     image_x: "65%",
     image_y: "2113px",
     image_width: "1100px",

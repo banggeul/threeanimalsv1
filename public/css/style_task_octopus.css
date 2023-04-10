@@ -20,7 +20,8 @@ html,body {
   /* background: black; */
   overflow: hidden;
   /* background-color: #567a52; */
-  background-color: #33561c;
+  /* background-color: #33561c; */
+  background-color: #829999;
 }
 
 body {
@@ -171,7 +172,8 @@ input[type="radio"] {
   height: 100vh;
   /* background: rgba(0,0,0,0); */
   /* background-color: #567a52; */
-  background-color: #33561c;
+  /* background-color: #33561c; */
+  background-color: #829999;
   position: relative;
   overflow: hidden;
 }
@@ -214,7 +216,9 @@ input[type="radio"] {
   height: 218px;
   /* background: rgba(255,200,200,1); */
   position: absolute;
-  background-image: url(/animations/cardBackTrimmed.png);
+  /* background-image: url(/animations/cardBackTrimmed.png); */
+  /* background-image: url(/assets/squirrel/card_still/card_back.png); */
+  background-image: url(/media_assets/octopus/card_still/card_back.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -237,7 +241,7 @@ canvas.animContainer {
 }
 
 .bunny {
-  width: 166px;
+  width: 346px;
   height: 220px;
   /* border-radius: 50% 50%; */
   /* background: #fff; */
@@ -245,25 +249,35 @@ canvas.animContainer {
   z-index: 2;
   opacity: 0;
   display: none;
-  background-image: url(/animations/rabbit/waitingRight.png);
+  /* background-image: url(/animations/rabbit/waitingRight.png); */
+  /* background-image: url(/assets/squirrel/squirrel_small/squirrel_standing_right.png); */
+  background-image: url(/media_assets/octopus/animal_small/standing_right.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .bunny-skipRight {
-  background-image: url(/animations/rabbit/rightSkip.png);
+  /* background-image: url(/animations/rabbit/rightSkip.png); */
+  /* background-image: url(/assets/squirrel/squirrel_small/squirrel_leaping_right.png); */
+  background-image: url(/media_assets/octopus/animal_small/moving_right.png);
 }
 
 .bunny-skipLeft {
-  background-image: url(/animations/rabbit/leftSkip.png);
+  /* background-image: url(/animations/rabbit/leftSkip.png); */
+  /* background-image: url(/assets/squirrel/squirrel_small/squirrel_leaping_left.png); */
+  background-image: url(/media_assets/octopus/animal_small/moving_left.png);
 }
 
 .bunny-waitingRight {
-  background-image: url(/animations/rabbit/waitingRight.png);
+  /* background-image: url(/animations/rabbit/waitingRight.png); */
+  /* background-image: url(/assets/squirrel/squirrel_small/squirrel_standing_right.png); */
+  background-image: url(/media_assets/octopus/animal_small/standing_right.png);
 }
 
 .bunny-waitingLeft {
-  background-image: url(/animations/rabbit/waitingLeft.png);
+  /* background-image: url(/animations/rabbit/waitingLeft.png); */
+  /* background-image: url(/assets/squirrel/squirrel_small/squirrel_standing_left.png); */
+  background-image: url(/media_assets/octopus/animal_small/standing_left.png);
 }
 
 .choice-card {
@@ -274,7 +288,9 @@ canvas.animContainer {
   /* flex: 1 1 auto; */
   /* box-shadow: 0 0 50px rgba(0,0,0,1); */
   z-index: 10;
-  background-image: url(/animations/carrot_button_3.png);
+  /* background-image: url(/animations/carrot_button_3.png); */
+  /* background-image: url(/assets/squirrel/button/btn_acorn.png); */
+  background-image: url(/media_assets/octopus/button/btn_yes.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   user-select: none;
@@ -315,26 +331,34 @@ div[data-choice='0'] {
   /* background-color: red; */
   /* this should be the clickable card face */
   /* background-image: url(dirtCardStillUntrimmed.png); */
-  background-image: url(/animations/dirt_button_3.png);
+  /* background-image: url(/animations/dirt_button_3.png); */
+  /* background-image: url(/assets/squirrel/button/btn_no_acorn.png); */
+  background-image: url(/media_assets/octopus/button/btn_no.png);
 }
 
 div[data-choice="1"] {
   /* background-color: green; */
-  background-image: url(/animations/carrot_button_3.png);
+  /* background-image: url(/animations/carrot_button_3.png); */
+  /* background-image: url(/assets/squirrel/button/btn_acorn.png); */
+  background-image: url(/media_assets/octopus/button/btn_yes.png);
   /* this should be the clickable card face */
   /* background-image: url(carrotCardStilluntrimmed.png); */
 }
 
 div[data-env="0"]{
   /* background-color: green; */
-  background-image: url(/animations/dirtCardStillTrimmed.png);
+  /* background-image: url(/animations/dirtCardStillTrimmed.png); */
+  /* background-image: url(/assets/squirrel/card_still/noacornfront.png); */
+  background-image: url(/media_assets/octopus/card_still/card_no.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 div[data-env="1"]{
   /* background-color: orange; */
-  background-image: url(/animations/carrotCardStillTrimmed.png);
+  /* background-image: url(/animations/carrotCardStillTrimmed.png); */
+  /* background-image: url(/assets/squirrel/card_still/acornfront.png); */
+  background-image: url(/media_assets/octopus/card_still/card_yes.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -468,12 +492,13 @@ a.disabled {
   top: 0;
   left: 0;
   z-index: 2;
-  background-image: url(/images/thanks/rE.png);
+  background-image: url(/media_assets/shared/congratulations.png);
   background-size: cover;
 }
 
 .thanks-en {
-  background-image: url(/images/thanks/rE.png);
+  /* background-image: url(/images/thanks/rE.png); */
+  background-image: url(/media_assets/shared/congratulations.png);
 }
 
 .thanks-de {
@@ -700,7 +725,8 @@ label {
   height: 100vh;
   /* background-image: url(/instructions/task3/apple_instruction_0.png); */
   /* background-size: cover; */
-  background-color: #33561c;
+  /* background-color: #33561c; */
+  background-color: #829999;
   color: white;
   /* display: flex;
   flex-direction: column;
@@ -735,7 +761,8 @@ label {
   /* opacity: 0; */
   width: 100%;
   height: 100vh;
-  background-color: #33561c;
+  /* background-color: #33561c; */
+  background-color: #829999;
   color: white;
   /* display: flex;
   flex-direction: column;

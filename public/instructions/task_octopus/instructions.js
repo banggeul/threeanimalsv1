@@ -1,9 +1,9 @@
 export var instructions = [
   {
-    foreground: "big_rabbit_Eyes.png",
+    foreground: "standing_left_big.png",
     isVideo: "0",
     text: {
-      en:"This is Maxi. <br><br> Maxi is very hungry and carrots <br>are Maxi’s favorite food. <br><br>Maxi is looking for carrots to eat.",
+      en:"This is Ollie. <br><br> Ollie is very hungry and fish <br>is Ollie's favorite food. <br><br>Ollie is looking for fish to eat.",
       de:"Das ist Maxi. <br><br> Maxi ist sehr hungrig und Karotten <br>sind Maxis Lieblingsessen. <br><br>Maxi sucht nach Karotten zum Essen."
     },
     textDelay: "1",
@@ -16,7 +16,7 @@ export var instructions = [
   },
   {
     background: "path.png",
-    foreground: "politePoseEyes.png",
+    foreground: "standing_left_small.png",
     isVideo: "0",
     animation: {
       property: "x",
@@ -24,7 +24,7 @@ export var instructions = [
       duration: "3"
     },
     text: {
-      en: "See these spots? <br> Maxi will follow this path looking for carrots in each spot.",
+      en: "See these spots? <br> Ollie will follow this path looking for fish in each spot.",
       de:"Siehst du diese Punkte? <br>Maxi folgt diesem Pfad und sucht an jedem Punkt nach Karotten."
     },
     textDelay: "2",
@@ -38,10 +38,10 @@ export var instructions = [
   },
   {
     background: "flip_bg.png",
-    foreground: "carrot_flip.mp4",
+    foreground: "flip_yes.mp4",
     isVideo: "1",
     text: {
-      en:"Under some of the spots, Maxi can find <br> a yummy carrot that looks like this…",
+      en:"Under some of the spots, Ollie can find <br> yummy fish that looks like this…",
       de:"Unter einigen Punkten findet Maxi  <br> eine leckere Karotte, die so aussieht…"
     },
     textDelay: "0",
@@ -55,7 +55,7 @@ export var instructions = [
   },
   {
     bgColor: "rgba(0,0,0,0)",
-    foreground: "dirt_flip.mp4",
+    foreground: "flip_no.mp4",
     isVideo: "1",
     text: {
       en:"...but under some of the spots, <br>he can’t find anything to eat.",
@@ -72,7 +72,7 @@ export var instructions = [
   },
   {
     bgColor: "rgba(0,0,0,0)",
-    foreground: "big_rabbit_Eyes.png",
+    foreground: "standing_right_big.png",
     animation: {
       property: "y",
       to: "1350",
@@ -80,7 +80,7 @@ export var instructions = [
     },
     isVideo: "0",
     text: {
-      en:"Maxi knows that it is as likely to <br> find a carrot under a spot as it is to <br>find nothing under a spot.",
+      en:"Ollie knows that it is as likely to <br> find fish under a spot as it is to <br>find nothing under a spot.",
       de:"Maxi weiß, dass es genauso gut möglich ist, <br> eine Karotte unter einem Punkt zu finden,  <br>wie es möglich ist, keine Karotte zu finden."
     },
     textDelay: "0",
@@ -94,7 +94,7 @@ export var instructions = [
   },
   {
     background: "path.png",
-    foreground: "big_rabbit_Eyes.png",
+    foreground: "standing_right_big.png",
     animation: {
       property: "y",
       to: "-1317",
@@ -102,7 +102,7 @@ export var instructions = [
     },
     isVideo: "0",
     text: {
-      en:"Let’s help Maxi guess <br>if there is something to eat <br> or nothing to eat under each spot.",
+      en:"Let’s help Ollie guess <br>if there is something to eat <br> or nothing to eat under each spot.",
       de:"Hilf Maxi zu erraten, <br> ob es unter den einzelnen Punkten <br>etwas zu essen oder nichts zu essen gibt."
     },
     textDelay: "1",

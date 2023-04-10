@@ -1,4 +1,4 @@
-{"frames": [
+var fish_frames = [
 
 {
 	"filename": "Fullsize-Fish-Flip-Layers_0000_f01",
@@ -383,14 +383,4 @@
 	"trimmed": true,
 	"spriteSourceSize": {"x":47,"y":23,"w":156,"h":158},
 	"sourceSize": {"w":250,"h":218}
-}],
-"meta": {
-	"app": "https://www.codeandweb.com/texturepacker",
-	"version": "1.0",
-	"image": "fish.png",
-	"format": "RGBA8888",
-	"size": {"w":1012,"h":1709},
-	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:dff1cd0f8e106ed2194d1bc32ee28dd8:58dfee00d77815add4ac9d1c39a8b351:8d6d90e8f48b9264619fb7c7934eace4$"
-}
-}
+}]

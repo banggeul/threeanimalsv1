@@ -1062,29 +1062,29 @@ let dirt = {
 
 let sprite_c = new Image();
 sprite_c.onload = initCarrot;
-sprite_c.src = "animations/cards/yellowCarrot.png";
+sprite_c.src = "media_assets/octopus/card_anim/fish.png";
 
 let sprite_d = new Image();
 sprite_d.onload = initDirt;
-sprite_d.src = "animations/cards/yellowDirt.png";
+sprite_d.src = "media_assets/octopus/card_anim/fish_no_copy.png";
 
 // window.addEventListener("resize", resizeCarrot);
 
 function initCarrot() {
   tl_c = gsap.timeline({ onUpdate: updateCarrot, onComplete: carrotFinished, paused:true })
-    .to(carrot, { frame: carrot_frames.length - 1, roundProps: "frame", repeat: 0, ease: SteppedEase.config(carrot_frames.length - 1), duration: 1, delay:0.5 }, 0);
+    .to(carrot, { frame: fish_frames.length - 1, roundProps: "frame", repeat: 0, ease: SteppedEase.config(fish_frames.length - 1), duration: 1, delay:0.5 }, 0);
   // tl_c.pause();
 }
 
 function initDirt() {
   tl_d = gsap.timeline({ onUpdate: updateDirt, onComplete: dirtFinished, paused:true })
-      .to(dirt, { frame: dirt_frames.length - 1, roundProps: "frame", repeat: 0, ease: "none", duration: 1, delay:0.5 }, 0);
+      .to(dirt, { frame: no_fish_frames.length - 1, roundProps: "frame", repeat: 0, ease: "none", duration: 1, delay:0.5 }, 0);
   // tl_d.pause();
 }
 
 function updateCarrot() {
 
-  let frame = carrot_frames[carrot.frame];
+  let frame = fish_frames[carrot.frame];
 
   let f = frame.frame;
   let s = frame.spriteSourceSize;
@@ -1104,7 +1104,7 @@ function updateCarrot() {
 
 function updateDirt() {
 
-  let frame = dirt_frames[dirt.frame];
+  let frame = no_fish_frames[dirt.frame];
 
   let f = frame.frame;
   let s = frame.spriteSourceSize;
