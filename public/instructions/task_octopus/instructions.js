@@ -11,7 +11,6 @@ export var instructions = [
     y:"40%",
     image_x: "5%",
     image_y: "0",
-    image_width: "1366px",
     textAlign: "left",
     imgfadeOut: "1"
   },
@@ -25,15 +24,14 @@ export var instructions = [
       duration: "3"
     },
     text: {
-      en: "See these spots? <br> Ollie will follow this path looking for fish in each spot.",
+      en: "See these spots? <br> Ollie will follow this path <br>looking for fish in each spot.",
       de:"Siehst du diese Punkte? <br>Maxi folgt diesem Pfad und sucht an jedem Punkt nach Karotten."
     },
     textDelay: "2",
     x:"50%",
     y:"82%",
-    image_x: "-200px",
-    image_y: "6%",
-    image_width: "230px",
+    image_x: "-250px",
+    image_y: "8.7%",
     textAlign: "center",
     imgfadeOut: "1"
   },
@@ -89,8 +87,8 @@ export var instructions = [
     y:"82%",
     textAlign: "center",
     image_x: "39%",
-    image_y: "-1000px",
-    image_width: "600px",
+    image_y: "-645px",
+    image_width: "700px",
     imgfadeOut: "1"
   },
   {
@@ -109,7 +107,7 @@ export var instructions = [
     textDelay: "1",
     x:"10%",
     y:"82%",
-    textAlign: "left",
+    textAlign: "center",
     image_x: "62%",
     image_y: "1994px",
     image_width: "1000px",
