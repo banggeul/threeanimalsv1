@@ -1,7 +1,7 @@
 //import the data storing script
 import storeSubject from '/utils/subject_storage.js'
 import store from '/utils/storage_birds.js'
-import {instructions} from '/instructions/task_birds/instructions.js'
+import {instructions} from '/instructions/task_bird/instructions.js'
 //import {sequenceSets} from '/javascripts/sequenceSets.js'
 var sequenceSets;
 import { 
