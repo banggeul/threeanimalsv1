@@ -24,7 +24,7 @@ export var instructions = [
       duration: "3"
     },
     text: {
-      en: "See these spots? <br> Lucy will follow this path looking for cherries in each spot.",
+      en: "See these spots? <br> Lucy will follow this path <br>looking for cherries in each spot.",
       de:"Siehst du diese Punkte? <br>Maxi folgt diesem Pfad und sucht an jedem Punkt nach Karotten."
     },
     textDelay: "2",
