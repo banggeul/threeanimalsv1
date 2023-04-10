@@ -80,8 +80,8 @@ $demo.style.opacity = 0;
 // $demoMsg.style.display = "none";
 // $demoMsg.style.opacity = 0;
 
-let bunnyX = 160;
-let bunnyY = 331;
+let bunnyX = 200;
+let bunnyY = 300;
 
 // console.log("sequenceSets length = "+sequenceSets.length);
 // for(let i=0; i < sequenceSets.length; i++){
