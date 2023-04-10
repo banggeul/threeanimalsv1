@@ -48,7 +48,6 @@ export var instructions = [
     y:"82%",
     image_x: "-200px",
     image_y: "6%",
-    image_width: "230px",
     textAlign: "center",
     imgfadeOut: "1"
   },
