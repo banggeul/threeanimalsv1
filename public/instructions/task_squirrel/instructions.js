@@ -3,7 +3,7 @@ export var instructions = [
     background: "animal_friends.png",
     isVideo: "0",
     text: {
-      en:"This is Lucy, Skipper and Ollie. <br><br> You will be guessing what they may find <br> as they hop along the path.",
+      en:"This is Lucy, Skipper and Ollie. <br><br> You will be guessing what they may find <br> as they hop along their path to find food.",
       de:"Das ist Maxi. <br><br> Maxi ist sehr hungrig und Karotten <br>sind Maxis Lieblingsessen. <br><br>Maxi sucht nach Karotten zum Essen."
     },
     textDelay: "1",
