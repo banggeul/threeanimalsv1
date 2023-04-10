@@ -28,7 +28,7 @@ const $instructionScreen = document.querySelector("#instructionContainer");
 let instructionPages = [];
 let instTexts = [];
 let nextBtns = [];
-const pathToSlides = "/instructions/task_birds/";
+const pathToSlides = "/instructions/task_bird/";
 
 // let timeID;
 let isGameOn = false;
