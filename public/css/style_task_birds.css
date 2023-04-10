@@ -20,7 +20,8 @@ html,body {
   /* background: black; */
   overflow: hidden;
   /* background-color: #567a52; */
-  background-color: #33561c;
+  /* background-color: #33561c; */
+  background-color: #98a1d9;
 }
 
 body {
@@ -171,7 +172,8 @@ input[type="radio"] {
   height: 100vh;
   /* background: rgba(0,0,0,0); */
   /* background-color: #567a52; */
-  background-color: #33561c;
+  /* background-color: #33561c; */
+  background-color: #98a1d9;
   position: relative;
   overflow: hidden;
 }
@@ -723,7 +725,8 @@ label {
   height: 100vh;
   /* background-image: url(/instructions/task3/apple_instruction_0.png); */
   /* background-size: cover; */
-  background-color: #33561c;
+  /* background-color: #33561c; */
+  background-color: #98a1d9;
   color: white;
   /* display: flex;
   flex-direction: column;
@@ -758,7 +761,8 @@ label {
   /* opacity: 0; */
   width: 100%;
   height: 100vh;
-  background-color: #33561c;
+  /* background-color: #33561c; */
+  background-color: #98a1d9;
   color: white;
   /* display: flex;
   flex-direction: column;

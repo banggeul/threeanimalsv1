@@ -3,12 +3,12 @@ export var instructions = [
     foreground: "standing_big.png",
     isVideo: "0",
     text: {
-      en:"This is Lucy. <br><br> Lucy is very hungry and cherries <br>are Lucy’s favorite food. <br><br>Lucy is looking for cherries to eat.",
+      en:"This is Lucy. <br><br> Lucy is very hungry and <br> cherries are Lucy’s favorite food. <br><br>Lucy is looking for cherries to eat.",
       de:"Das ist Maxi. <br><br> Maxi ist sehr hungrig und Karotten <br>sind Maxis Lieblingsessen. <br><br>Maxi sucht nach Karotten zum Essen."
     },
     textDelay: "1",
-    x:"45%",
-    y:"40%",
+    x:"40%",
+    y:"7%",
     image_x: "5%",
     image_y: "0",
     textAlign: "left",
@@ -32,7 +32,6 @@ export var instructions = [
     y:"82%",
     image_x: "-200px",
     image_y: "6%",
-    image_width: "230px",
     textAlign: "center",
     imgfadeOut: "1"
   },
