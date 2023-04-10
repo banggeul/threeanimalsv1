@@ -7,7 +7,7 @@ export var instructions = [
       de:"Das ist Maxi. <br><br> Maxi ist sehr hungrig und Karotten <br>sind Maxis Lieblingsessen. <br><br>Maxi sucht nach Karotten zum Essen."
     },
     textDelay: "1",
-    x:"40%",
+    x:"57.8%",
     y:"7%",
     image_x: "5%",
     image_y: "0",
@@ -30,8 +30,8 @@ export var instructions = [
     textDelay: "2",
     x:"50%",
     y:"82%",
-    image_x: "-200px",
-    image_y: "6%",
+    image_x: "-270px",
+    image_y: "8.7%",
     textAlign: "center",
     imgfadeOut: "1"
   },
@@ -71,7 +71,7 @@ export var instructions = [
   },
   {
     bgColor: "rgba(0,0,0,0)",
-    foreground: "standing_big.png",
+    foreground: "standing_left_big.png",
     animation: {
       property: "y",
       to: "1350",
@@ -79,21 +79,21 @@ export var instructions = [
     },
     isVideo: "0",
     text: {
-      en:"Lucy knows that it is as likely to <br> find a cherry under a spot as it is to <br>find nothing under a spot.",
+      en:"Lucy knows that it is as likely to <br> find a cherry under a spot as it is  <br>to find nothing under a spot.",
       de:"Maxi weiß, dass es genauso gut möglich ist, <br> eine Karotte unter einem Punkt zu finden,  <br>wie es möglich ist, keine Karotte zu finden."
     },
     textDelay: "0",
     x:"50%",
     y:"82%",
     textAlign: "center",
-    image_x: "39%",
-    image_y: "-1000px",
-    image_width: "600px",
+    image_x: "37%",
+    image_y: "-553px",
+    image_width: "700px",
     imgfadeOut: "1"
   },
   {
     background: "path.png",
-    foreground: "standing_big.png",
+    foreground: "standing_left_big.png",
     animation: {
       property: "y",
       to: "-1317",
