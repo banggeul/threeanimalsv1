@@ -7,10 +7,11 @@ export var instructions = [
       de:"Das ist Maxi. <br><br> Maxi ist sehr hungrig und Karotten <br>sind Maxis Lieblingsessen. <br><br>Maxi sucht nach Karotten zum Essen."
     },
     textDelay: "1",
-    x:"45%",
+    x:"67%",
     y:"40%",
     image_x: "5%",
     image_y: "0",
+    image_width: "1366px",
     textAlign: "left",
     imgfadeOut: "1"
   },
