@@ -1,6 +1,6 @@
 export var instructions = [
   {
-    foreground: "animal_friends.png",
+    background: "animal_friends.png",
     isVideo: "0",
     text: {
       en:"This is Lucy, Skipper and Ollie. <br><br> You will be guessing what they may find <br> as they hop along the path.",
