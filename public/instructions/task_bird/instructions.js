@@ -109,8 +109,8 @@ export var instructions = [
     y:"82%",
     textAlign: "left",
     image_x: "62%",
-    image_y: "1994px",
-    image_width: "1000px",
+    image_y: "2150px",
+    image_width: "1200px",
     imgfadeOut: "1"
   }
 ]
