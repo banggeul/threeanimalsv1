@@ -1,6 +1,6 @@
 {
-  "name": "RandomTask",
-  "short_name": "RandomTask",
+  "name": "Three Animals Experiments",
+  "short_name": "ThreeAnimals",
   "description": "Experiments for Children's Randomness",
   "version": "0.0.0.1",
   "manifest_version": 1,
@@ -12,7 +12,7 @@
   "background_color": "#F7F4F3",
   "app": {
     "urls": [
-      "https://randomtask-experiment.herokuapp.com/"
+      "https://random-animals.herokuapp.com/"
     ],
     "permissions": [
       "fullscreen"
