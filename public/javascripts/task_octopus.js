@@ -1066,7 +1066,7 @@ sprite_c.src = "media_assets/octopus/card_anim/fish.png";
 
 let sprite_d = new Image();
 sprite_d.onload = initDirt;
-sprite_d.src = "media_assets/octopus/card_anim/fish_no_copy.png";
+sprite_d.src = "media_assets/octopus/card_anim/fish_no.png";
 
 // window.addEventListener("resize", resizeCarrot);
 
