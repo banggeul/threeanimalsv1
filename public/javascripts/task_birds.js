@@ -1072,7 +1072,7 @@ sprite_c.src = "media_assets/bird/card_anim/cherry.png";
 
 let sprite_d = new Image();
 sprite_d.onload = initDirt;
-sprite_d.src = "media_assets/bird/card_anim/cherry_no.png";
+sprite_d.src = "media_assets/bird/card_anim/cherry_no_copy.png";
 
 // window.addEventListener("resize", resizeCarrot);
 
