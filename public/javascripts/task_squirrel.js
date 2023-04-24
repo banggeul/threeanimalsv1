@@ -579,11 +579,11 @@ function setUpGameBoard() {
 
     //get the card positions from the json file//
     if(i > 0){
-      x = cardPositions[i-1].x * 2;
-      y = cardPositions[i-1].y * 2;
+      x = cardPositions[i-1].x;
+      y = cardPositions[i-1].y;
     } else {
-      x = cardPositions[i].x * 2;
-      y = cardPositions[i].y * 2;
+      x = cardPositions[i].x;
+      y = cardPositions[i].y;
     }
     
 
