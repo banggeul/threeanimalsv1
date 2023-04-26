@@ -936,7 +936,7 @@ function fadeInButtons(){
   $bunny.classList.remove("bunny-skipRight");
   $bunny.classList.remove("bunny-skipLeft");
   
-  if(currentCardNum <= 27 && currentCardNum >= 14){
+  if(currentCardNum <= 6 && currentCardNum >= 12 && currentCardNum <= 25 && currentCardNum >= 34){
     $bunny.classList.add("bunny-waitingLeft");
   } else {
     $bunny.classList.remove("bunny-waitingLeft");
