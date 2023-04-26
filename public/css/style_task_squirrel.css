@@ -515,6 +515,8 @@ a.disabled {
   right: 0;
   z-index: 2;
   color: white;
+  text-shadow: 0 0 40px black;
+  align-items: center;
 }
 
 .demo h1 {
@@ -528,8 +530,10 @@ a.disabled {
   background-image: url(/instructions/right-angle-arrow.png);
   background-position: center;
   background-size: contain;
-  width: 100px;
-  height: 100px;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
 }
 
 #demo-left {
@@ -573,6 +577,7 @@ a.disabled {
 .arrow {
   font-size: 6em;
   color: white;
+  margin-top: 12px;
 }
 
 .sun {
