@@ -288,7 +288,7 @@ let pValue;
 let demoOrder = 0;
 let demoMsgs = {
   "en": [
-  "Let me show you how it's done.",
+  "Let me show you again how it's done.",
   "You see, there are two buttons below.",
   "Do you see where Lucy is standing?",
   "If you think there's a cherry under that spot,",

@@ -284,10 +284,10 @@ let pValue;
 let demoOrder = 0;
 let demoMsgs = {
   "en": [
-  "Let me show you how it's done.",
+  "Let me show you again how it's done.",
   "You see, there are two buttons below.",
   "Do you see where Ollie is standing?",
-  "If you think there's fish under that spot,",
+  "If you think there's a fish under that spot,",
   "If you think there's nothing under that spot,",
   "Now it's your turn!"
   ],

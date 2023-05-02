@@ -18,7 +18,7 @@ export var instructions = [
     foreground: "standing_big.png",
     isVideo: "0",
     text: {
-      en:"This is Skipper. <br><br> Skipper is very hungry and acorns <br>are Skipper’s favorite food. <br><br>Skipper is looking for acorns to eat.",
+      en:"This is Skipper. <br><br> Skipper is very hungry, and acorns <br>are Skipper’s favorite food. <br><br>Skipper is looking for acorns to eat.",
       de:"Das ist Maxi. <br><br> Maxi ist sehr hungrig und Karotten <br>sind Maxis Lieblingsessen. <br><br>Maxi sucht nach Karotten zum Essen."
     },
     textDelay: "1",
@@ -95,7 +95,7 @@ export var instructions = [
     },
     isVideo: "0",
     text: {
-      en:"Skipper knows that it is as likely to <br> find an acorn under a spot as it is to <br>find nothing under a spot.",
+      en:"Skipper knows that it is just as likely to <br> find an acorn under a spot as it is to <br>find nothing under a spot.",
       de:"Maxi weiß, dass es genauso gut möglich ist, <br> eine Karotte unter einem Punkt zu finden,  <br>wie es möglich ist, keine Karotte zu finden."
     },
     textDelay: "0",

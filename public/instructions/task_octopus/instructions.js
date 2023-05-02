@@ -3,7 +3,7 @@ export var instructions = [
     foreground: "standing_left_big.png",
     isVideo: "0",
     text: {
-      en:"This is Ollie. <br><br> Ollie is very hungry and fish <br>is Ollie's favorite food. <br><br>Ollie is looking for fish to eat.",
+      en:"This is Ollie. <br><br> Ollie is very hungry, and fish <br>are Ollie's favorite food. <br><br>Ollie is looking for fish to eat.",
       de:"Das ist Maxi. <br><br> Maxi ist sehr hungrig und Karotten <br>sind Maxis Lieblingsessen. <br><br>Maxi sucht nach Karotten zum Essen."
     },
     textDelay: "1",
@@ -40,7 +40,7 @@ export var instructions = [
     foreground: "flip_yes.mp4",
     isVideo: "1",
     text: {
-      en:"Under some of the spots, Ollie can find <br> yummy fish that looks like this…",
+      en:"Under some of the spots, Ollie can find <br> a yummy fish that looks like this…",
       de:"Unter einigen Punkten findet Maxi  <br> eine leckere Karotte, die so aussieht…"
     },
     textDelay: "0",
@@ -79,7 +79,7 @@ export var instructions = [
     },
     isVideo: "0",
     text: {
-      en:"Ollie knows that it is as likely to <br> find fish under a spot as it is to <br>find nothing under a spot.",
+      en:"Ollie knows that it is just as likely to <br> find fish under a spot as it is to <br>find nothing under a spot.",
       de:"Maxi weiß, dass es genauso gut möglich ist, <br> eine Karotte unter einem Punkt zu finden,  <br>wie es möglich ist, keine Karotte zu finden."
     },
     textDelay: "0",

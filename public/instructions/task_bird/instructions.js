@@ -3,7 +3,7 @@ export var instructions = [
     foreground: "standing_big.png",
     isVideo: "0",
     text: {
-      en:"This is Lucy. <br><br> Lucy is very hungry and <br> cherries are Lucy’s favorite food. <br><br>Lucy is looking for cherries to eat.",
+      en:"This is Lucy. <br><br> Lucy is very hungry, and <br> cherries are Lucy’s favorite food. <br><br>Lucy is looking for cherries to eat.",
       de:"Das ist Maxi. <br><br> Maxi ist sehr hungrig und Karotten <br>sind Maxis Lieblingsessen. <br><br>Maxi sucht nach Karotten zum Essen."
     },
     textDelay: "1",
@@ -79,7 +79,7 @@ export var instructions = [
     },
     isVideo: "0",
     text: {
-      en:"Lucy knows that it is as likely to <br> find a cherry under a spot as it is  <br>to find nothing under a spot.",
+      en:"Lucy knows that it is just as likely to <br> find a cherry under a spot as it is  <br>to find nothing under a spot.",
       de:"Maxi weiß, dass es genauso gut möglich ist, <br> eine Karotte unter einem Punkt zu finden,  <br>wie es möglich ist, keine Karotte zu finden."
     },
     textDelay: "0",
