@@ -121,9 +121,9 @@ export var instructions = [
       de:"Hilf Maxi zu erraten, <br> ob es unter den einzelnen Punkten <br>etwas zu essen oder nichts zu essen gibt."
     },
     textDelay: "1",
-    x:"10%",
+    x:"19%",
     y:"82%",
-    textAlign: "left",
+    textAlign: "center",
     image_x: "62%",
     image_y: "1994px",
     image_width: "1000px",
