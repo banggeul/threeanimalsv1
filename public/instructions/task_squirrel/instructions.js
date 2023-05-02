@@ -46,7 +46,7 @@ export var instructions = [
     textDelay: "2",
     x:"50%",
     y:"82%",
-    image_x: "-250px",
+    image_x: "-270px",
     image_y: "8.7%",
     textAlign: "center",
     imgfadeOut: "1"
