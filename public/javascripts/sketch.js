@@ -91,6 +91,7 @@ for (let i = 0; i < 10; i++) {
 }
 
 //get the reference to the HTML elements we need
+const $appContainer = document.querySelector("#appContainer");
 const $interface = document.querySelector("#interfaceContainer");
 const $inputAgeSubjectNum = document.querySelector('#inputAgeSubjectNum');
 const $inputGender = document.querySelector('#inputGender');
@@ -131,6 +132,15 @@ $rainTaskButton.addEventListener('click', startTheTask);
 document.body.addEventListener('touchstart', () => {
   document.activeElement.blur();
 });
+
+$appContainer.addEventListener('touchstart', (e)=>{
+  if (e.touches[0].clientX < 65){
+    e.preventDefault();
+    console.log("prevent swipe");
+   } 
+
+  // console.log(e.touches[0].clientX);
+})
 
 //check time zone;
 const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
