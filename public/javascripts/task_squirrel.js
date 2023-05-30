@@ -791,12 +791,12 @@ function drawBunny(options) {
 $gameView.addEventListener('touchstart', function(e) {
    // Invoke the appropriate handler depending on the
    // number of touch points.
-   if (e.pageX < 20){
+   if (e.touches[0].clientX < 20){
     e.preventDefault();
     console.log("prevent swipe");
    } 
 
-   console.log(e.touches[0].clientX);
+   //console.log(e.touches[0].clientX);
     
    
    switch (e.touches.length) {
