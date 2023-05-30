@@ -95,6 +95,14 @@ let bunnyY = 331;
 // }
 
 setUpInstruction(instructions);
+$instructionScreen.addEventListener('touchstart', function(e){
+  if (e.touches[0].clientX < 65){
+    e.preventDefault();
+    console.log("prevent swipe");
+   } 
+
+   console.log(e.touches[0].clientX);
+});
 
 function setUpInstruction(arr){
   for(let i=0; i < arr.length; i++){
@@ -796,7 +804,7 @@ $gameView.addEventListener('touchstart', function(e) {
     console.log("prevent swipe");
    } 
 
-   console.log(e.touches[0].clientX);
+   //console.log(e.touches[0].clientX);
     
    
    switch (e.touches.length) {
