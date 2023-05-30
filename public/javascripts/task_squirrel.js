@@ -101,7 +101,7 @@ $instructionScreen.addEventListener('touchstart', function(e){
     console.log("prevent swipe");
    } 
 
-   console.log(e.touches[0].clientX);
+  // console.log(e.touches[0].clientX);
 });
 
 function setUpInstruction(arr){

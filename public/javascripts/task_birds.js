@@ -96,6 +96,15 @@ let bunnyY = 331;
 
 setUpInstruction(instructions);
 
+$instructionScreen.addEventListener('touchstart', function(e){
+  if (e.touches[0].clientX < 65){
+    e.preventDefault();
+    console.log("prevent swipe");
+   } 
+
+  // console.log(e.touches[0].clientX);
+});
+
 function setUpInstruction(arr){
   for(let i=0; i < arr.length; i++){
     const inst = arr[i];
@@ -787,6 +796,12 @@ function drawBunny(options) {
 }
 
 $gameView.addEventListener('touchstart', function(e) {
+  if (e.touches[0].clientX < 65){
+    e.preventDefault();
+    console.log("prevent swipe");
+   } 
+
+  // console.log(e.touches[0].clientX);
    // Invoke the appropriate handler depending on the
    // number of touch points.
    switch (e.touches.length) {
