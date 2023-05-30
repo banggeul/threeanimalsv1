@@ -791,6 +791,7 @@ function drawBunny(options) {
 $gameView.addEventListener('touchstart', function(e) {
    // Invoke the appropriate handler depending on the
    // number of touch points.
+   e.preventDefault();
    switch (e.touches.length) {
      case 1: handle_one_touch(e); break;
      case 2: handle_two_touches(e); break;
