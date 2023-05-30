@@ -395,8 +395,9 @@ $game.style.display = "none";
 $game.style.opacity = 0;
 
 
-document.body.addEventListener('touchstart', () => {
+document.body.addEventListener('touchstart', (e) => {
   document.activeElement.blur();
+  e.preventDefault();
 });
 
 // fetch the subjectNumbers collection
