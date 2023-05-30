@@ -91,7 +91,7 @@ for (let i = 0; i < 10; i++) {
 }
 
 //get the reference to the HTML elements we need
-const $appContainer = document.querySelector("#appContainer");
+const $appContainer = document.querySelector("#app-container");
 const $interface = document.querySelector("#interfaceContainer");
 const $inputAgeSubjectNum = document.querySelector('#inputAgeSubjectNum');
 const $inputGender = document.querySelector('#inputGender');
