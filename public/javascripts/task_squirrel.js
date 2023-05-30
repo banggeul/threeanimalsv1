@@ -791,12 +791,17 @@ function drawBunny(options) {
 $gameView.addEventListener('touchstart', function(e) {
    // Invoke the appropriate handler depending on the
    // number of touch points.
-   e.preventDefault();
+   if (e.pageX < 20) 
+    e.preventDefault();
+   
    switch (e.touches.length) {
      case 1: handle_one_touch(e); break;
      case 2: handle_two_touches(e); break;
      default: console.log("not supported touches"); break;
    }
+
+   
+   
  }, false);
 
  function handle_one_touch(e){
@@ -805,6 +810,8 @@ $gameView.addEventListener('touchstart', function(e) {
      case "right": buttonPressed("right"); break;
      default: console.log("not supported touches"); break;
    }
+
+   
  }
 
  function handle_two_touches(e){
