@@ -795,6 +795,8 @@ $gameView.addEventListener('touchstart', function(e) {
     e.preventDefault();
     console.log("prevent swipe");
    } 
+
+   console.log(e.pageX);
     
    
    switch (e.touches.length) {
