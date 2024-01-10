@@ -85,7 +85,7 @@ document.body.addEventListener('touchstart', () => {
   document.activeElement.blur();
 });
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 22; i++) {
   ageSortedSubjects.push([]);
   sortedSubjectIds.push([]);
 }
@@ -292,7 +292,7 @@ function generateNewID() {
   //if there's any old data, wipe it
   experiment = {};
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 22; i++) {
     ageSortedSubjects.push([]);
     sortedSubjectIds.push([]);
   }
