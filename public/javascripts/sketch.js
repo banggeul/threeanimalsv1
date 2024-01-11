@@ -337,7 +337,7 @@ function generateNewID() {
         if (!$checkSubjectID.classList.contains('disabled')) {
           $checkSubjectID.classList.add('disabled');
         }
-        if(ageGroup < 18){
+        if(ageGroup > 18){
           $parentalConsentOptionRow.style.display = "none";
         } else {
           $parentalConsentOptionRow.style.display = "block";
@@ -567,7 +567,7 @@ function checkSubjectID() {
     }
 
     // $inputGender.style.display = "block";
-    if(ageGroup < 18){
+    if(ageGroup > 18){
       $parentalConsentOptionRow.style.display = "none";
     } else {
       $parentalConsentOptionRow.style.display = "block";
@@ -585,7 +585,7 @@ function checkSubjectID() {
       msg = "Die ausgewählte ID stimmt nicht mit unseren Daten überein, daher wurde eine neue ID erstellt. Bitte geben Sie das Geschlecht des Kindes ein."
     }
     document.querySelector('#subjectInfoLabel').innerHTML = msg;
-    if(ageGroup < 18){
+    if(ageGroup > 18){
       $parentalConsentOptionRow.style.display = "none";
     } else {
       $parentalConsentOptionRow.style.display = "block";
@@ -723,7 +723,7 @@ function updateExistingSubjectInfo(){
 }
 
 function startTheTask(e) {
-
+  const age = document.getElementById('')
   if(document.getElementById('genderOptions').value == "null"){
     //highlight the gender option
     console.log("check the gender:"+document.getElementById('genderOptions').value+"!!!");
@@ -738,16 +738,23 @@ function startTheTask(e) {
   }
 
   if(document.getElementById('parentalConsentOptions').value == "null"){
-    //highlight the parental consent option
-    // console.log("check the parental consent:"+document.getElementById('genderOptions').value+"!!!");
-    document.getElementById('parentalConsentOptions').classList.add("error");
-    const parentalOptionContainer = document.getElementById('parentalConsentOptionRow');
-    let validationText = document.createElement('label');
-    validationText.innerHTML = "Please select if the parental consent has been given.";
-    validationText.classList.add('error');
-    validationText.id = "errorMsgParentalConsent";
-    parentalOptionContainer.appendChild(validationText);
-    return;
+    const age = parseInt(document.getElementById('ageYearOptions').value);
+    if(age > 18)
+    {
+      document.getElementById('parentalConsentOptions').selectedIndex = 2;
+    } else {
+
+      //highlight the parental consent option
+      // console.log("check the parental consent:"+document.getElementById('genderOptions').value+"!!!");
+      document.getElementById('parentalConsentOptions').classList.add("error");
+      const parentalOptionContainer = document.getElementById('parentalConsentOptionRow');
+      let validationText = document.createElement('label');
+      validationText.innerHTML = "Please select if the parental consent has been given.";
+      validationText.classList.add('error');
+      validationText.id = "errorMsgParentalConsent";
+      parentalOptionContainer.appendChild(validationText);
+      return;
+    }
   }
 
   updateSubject();
