@@ -108,6 +108,7 @@ const $ageMonthOptions = document.querySelector('#ageMonthOptions');
 const $genderOptions = document.querySelector('#genderOptions');
 const $parentalConsentOptions = document.querySelector('#parentalConsentOptions');
 let radios = document.querySelectorAll('input[type=radio][name="radio"]');
+let $parentalConsentOptionRow = document.querySelector('#parentalConsentOptionRow');
 
 //buttons
 const $generateNewID = document.querySelector('#generateNewIDButton');
@@ -336,7 +337,11 @@ function generateNewID() {
         if (!$checkSubjectID.classList.contains('disabled')) {
           $checkSubjectID.classList.add('disabled');
         }
-
+        if(ageGroup < 18){
+          $parentalConsentOptionRow.style.display = "none";
+        } else {
+          $parentalConsentOptionRow.style.display = "block";
+        }
         fadeIn($inputGender);
         newSubject = true;
       })
@@ -562,6 +567,11 @@ function checkSubjectID() {
     }
 
     // $inputGender.style.display = "block";
+    if(ageGroup < 18){
+      $parentalConsentOptionRow.style.display = "none";
+    } else {
+      $parentalConsentOptionRow.style.display = "block";
+    }
     fadeIn($inputGender);
   } else {
     //this is a new subject
@@ -575,6 +585,11 @@ function checkSubjectID() {
       msg = "Die ausgewählte ID stimmt nicht mit unseren Daten überein, daher wurde eine neue ID erstellt. Bitte geben Sie das Geschlecht des Kindes ein."
     }
     document.querySelector('#subjectInfoLabel').innerHTML = msg;
+    if(ageGroup < 18){
+      $parentalConsentOptionRow.style.display = "none";
+    } else {
+      $parentalConsentOptionRow.style.display = "block";
+    }
     fadeIn($inputGender);
   }
 }
