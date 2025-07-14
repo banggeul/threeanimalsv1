@@ -24,23 +24,14 @@ app.use(express.static('public'));
 
 MongoClient.connect(dbConnectionString,{ useNewUrlParser: true, useUnifiedTopology: true})
   .then(client=>{
-    console.log('Connected to Database dbRabbits');
-    const db = client.db('dbRabbits');
+    console.log('Connected to Database dbAnimals');
+    const db = client.db('dbAnimals');
     const collectionOctopus = db.collection('octopus');
     const collectionBirds = db.collection('birds');
     const collectionSquirrel = db.collection('squirrel');
     const collectionSubjects = db.collection('subjectNumbers');
-    // collectionSequence = db.collection('sequenceSet');
-    // const collection = db.collection('raindots');
 
     app.get('/', (req, res) => {
-      // db.collection('subjectNumbers').find().toArray()
-      //   .then(results =>{
-      //     // res.json(results);
-      //     console.log(results);
-      //     var subjectNums = results;
-      //     res.render('index', {title: 'Experiments', subjectNums: subjectNums} );
-      //   })
       res.render('index', {title: 'Experiments', myVar: "what?"} );
     })
 
